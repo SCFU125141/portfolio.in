@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Specialist | Digital Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+    <nav>
+        <div class="logo">AI<span>PORTFOLIO</span></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">AI Projects</a></li>
+            <li><a href="#achievements">Certs</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle"><i class="fas fa-sun"></i></button></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-container">
+                <img src="assets/profile.jpg" alt="AI Specialist" class="profile-img">
+            </div>
+            <h1>Innovating with <span class="gradient-text">Artificial Intelligence</span></h1>
+            <p>Specializing in Neural Networks, Design Thinking, and Ethical AI Solutions.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 class="section-title">Professional Profile</h2>
+        <div class="about-flex">
+            <div class="about-card">
+                <h3>Strengths</h3>
+                <ul>
+                    <li>Machine Learning Pipelines</li>
+                    <li>Design Thinking Strategy</li>
+                    <li>Problem Solving & Ethics</li>
+                </ul>
+            </div>
+            <div class="about-card">
+                <h3>Education</h3>
+                <p>Bachelor of Technology in AI & DS<br>Focus: Generative Models</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Core AI Projects</h2>
+        <div class="swiper project-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide project-card">
+                    <div class="tag">AI4A</div>
+                    <h3>AI for All (Ai4A)</h3>
+                    <p>An initiative to democratize AI education through accessible tools.</p>
+                    <a href="#" class="proj-link">View Repo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="swiper-slide project-card">
+                    <div class="tag">UX</div>
+                    <h3>Design Thinking Project</h3>
+                    <p>User-centric AI interface designed for healthcare accessibility.</p>
+                </div>
+                <div class="swiper-slide project-card">
+                    <div class="tag">Cloud</div>
+                    <h3>ACE Project</h3>
+                    <p>Advanced Cloud Engineering integration with AI workloads.</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section id="achievements" class="container bg-alt">
+        <h2 class="section-title">Certified Expertise</h2>
+        <div class="cert-grid">
+            <div class="cert-item"><img src="assets/coursera.png" alt="Coursera"><span>Coursera Specialization</span></div>
+            <div class="cert-item"><img src="assets/netacad.png" alt="Netacad"><span>Cisco Networking Academy</span></div>
+            <div class="cert-item"><img src="assets/yuva.png" alt="Yuva AI"><span>Yuva AI Certification</span></div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="contact-card">
+            <h2>Let's Collaborate</h2>
+            <p>Ready to bring AI intelligence to your next project?</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:email@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
